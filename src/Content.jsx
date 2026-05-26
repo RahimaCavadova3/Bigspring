@@ -115,7 +115,7 @@ function Content() {
       {/* Experience the best workflow with us */}
 
       <h2 className='max-w-[1024px] lg:w-96 mx-auto font-semibold lg:text-4xl text-3xl text-center pt-20 pb-10 px-5'>Experience the best workflow with us</h2>
-      <div className="bg-[url('./assets/banner.svg')] bg-cover bg-center h-80"></div>
+      <div className="bg-[url('./assets/banner.svg')] bg-cover bg-center lg:h-80 md:h-60 sm:h-40 h-20"></div>
 
            {/* Experience the best workflow with us */}
 
