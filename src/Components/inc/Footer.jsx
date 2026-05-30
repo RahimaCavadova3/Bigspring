@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from './assets/logo.webp'
+import logo from '/src/assets/logo.webp'
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";

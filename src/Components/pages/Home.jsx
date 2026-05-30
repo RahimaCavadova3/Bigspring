@@ -1,19 +1,31 @@
 import React from 'react'
-import code from './assets/code.svg'
-import oop from './assets/oop.svg'
-import user from './assets/user-clock.svg'
-import love from './assets/love.svg'
-import speedometer from './assets/speedometer.svg'
-import cloud from './assets/cloud.svg'
-import serviceslide1 from './assets/service-slide-1.png'
-import serviceslide2 from './assets/service-slide-2.png'
-import serviceslide3 from './assets/service-slide-3.png'
-import banner from './assets/banner.svg'
-import cta from './assets/cta.svg'
+import bannerart from '/src/assets/banner-art.svg'
+import code from '/src/assets/code.svg'
+import oop from '/src/assets/oop.svg'
+import user from '/src/assets/user-clock.svg'
+import love from '/src/assets/love.svg'
+import speedometer from '/src/assets/speedometer.svg'
+import cloud from '/src/assets/cloud.svg'
+import serviceslide1 from '/src/assets/service-slide-1.png'
+import serviceslide2 from '/src/assets/service-slide-2.png'
+import serviceslide3 from '/src/assets/service-slide-3.png'
+import banner from '/src/assets/banner.svg'
+import cta from '/src/assets/cta.svg'
 
-function Content() {
+function Home() {
   return (
     <>
+
+    {/* Let us solve your critical website development challenges */}
+    
+            <div className='max-w-[1024px] mx-auto flex flex-col items-center gap-5 text-center py-20 px-5'>
+              <h1 className='max-w-[800px] font-semibold lg:text-5xl text-4xl'>Let us solve your critical website development challenges</h1>
+              <p className='max-w-[700px] text-[#777777]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
+                 totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus.</p>
+              <img className='w-[800px]' src={bannerart} alt="banner" />
+            </div>
+    
+                 {/* Let us solve your critical website development challenges */}
 
       {/* Something You Need To Know */}
 
@@ -138,4 +150,4 @@ function Content() {
   )
 }
 
-export default Content
+export default Home
