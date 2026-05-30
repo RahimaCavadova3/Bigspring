@@ -12,7 +12,7 @@ function Header() {
         <div className='max-w-[1024px] mx-auto hidden lg:flex justify-between items-center pt-5 px-5'>
             <img className='w-46 h-10' src={logo} alt="logo" />
             <ul className='flex gap-8'>
-                <li><Link className='font-medium hover:text-[#0aa8a7] duration-100' to={'home'}>Home</Link></li>
+                <li><Link className='font-medium hover:text-[#0aa8a7] duration-100' to={'/'}>Home</Link></li>
                 <li><Link className='font-medium hover:text-[#0aa8a7] duration-100' to={'/blog'}>Blog</Link></li>
                 <li><Link className='font-medium hover:text-[#0aa8a7] duration-100' to={'/pricing'}>Pricing</Link></li>
                 <li><Link className='font-medium hover:text-[#0aa8a7] duration-100' to={'/contact'}>Contact</Link></li>
